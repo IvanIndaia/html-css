@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercídio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            /* border: 1px solid black; */
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cNome{
+            background-color: blue;
+        }
+        col.cSexo{
+            background-color: green;
+        }
+        col.cIdade{
+            background-color: red;
+        }
+        col.cProfi{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cNome">
+            <col class="cSexo">
+            <col class="cIdade">
+            <col class="cProfi">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ivan Alex</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Engenheiro de Software</td>
+        </tr>
+        <tr>
+            <td>Luana Costa</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Analista Administrativo</td>
+        </tr>
+        <tr>
+            <td>Josiane Talita</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Analista de DP</td>
+        </tr>
+        <tr>
+            <td>Gustavo Mendes</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Gerente Geral</td>
+        </tr>
+        <tr>
+            <td>Maria Clara</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Assistente Administrativo</td>
+        </tr>
+        <tr>
+            <td>Miguel Aquino</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Analista Financeiro</td>
+        </tr>
+    </table>
+</body>
+</html>
