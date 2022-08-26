@@ -1,0 +1,1 @@
+alert('Dados inseridos com sucesso')
