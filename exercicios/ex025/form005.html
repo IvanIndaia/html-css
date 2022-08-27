@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 05</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário 05</h1>
+    <form action="cadastro.php" method="GET" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxm" value="M"> 
+            <label for="isxm">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxf" value="F"> 
+            <label for="isxf">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="eatl" id="ieatl"> 
+            <label for="ieatl">Atletismo</label> <br>
+            <input type="checkbox" name="ebas" id="iebas"> 
+            <label for="iebas">Basquete</label> <br>
+            <input type="checkbox" name="efut" id="iefut"> 
+            <label for="iefut">Futebol</label> <br>
+            <input type="checkbox" name="enat" id="ienat"> 
+            <label for="ienat">Natação</label> <br> 
+            <input type="checkbox" name="eten" id="ieten"> 
+            <label for="ieten">Tenis</label> <br>
+            <input type="checkbox" name="evol" id="ievol"> 
+            <label for="ievol">Volei</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
