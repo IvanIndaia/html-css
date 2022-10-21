@@ -8,13 +8,14 @@
     <title>Media Queries</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
 
-<body>
+<body onresize="mudarTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-        <span id="burguerOn" class="material-icons" onclick="clickMenu()">expand_less</span>
+        <!-- <span id="burguerOn" class="material-icons" onclick="clickMenu()">expand_less</span> -->
         <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>

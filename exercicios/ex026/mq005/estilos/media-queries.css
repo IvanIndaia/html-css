@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    
+}
